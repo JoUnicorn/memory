@@ -45,10 +45,21 @@ class App extends Component {
   }
 
   // Arrow fx for binding
-  handleCardClick = (card) => {
-    console.log(card, this)
-  }
+  handleCardClick = index => {
+    const { currentPair } = this.state
 
+    if (currentPair.length === 2) {
+      return
+    }
+
+    if (currentPair.length === 0) {
+      this.setState({ currentPair: [index] })
+      return
+    }
+
+    this.handleNewPairClosedBy(index)
+  }
+  
   render() {
     const { cards, guesses, matchedCardIndices } = this.state
     const won = matchedCardIndices.length === cards.length
