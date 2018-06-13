@@ -59,7 +59,7 @@ class App extends Component {
 
     this.handleNewPairClosedBy(index)
   }
-  
+
   render() {
     const { cards, guesses, matchedCardIndices } = this.state
     const won = matchedCardIndices.length === cards.length
@@ -70,6 +70,7 @@ class App extends Component {
           <Card
             card={card}
             feedback={this.getFeedbackForCard(index)}
+            index={index}
             key={index}
             onClick={this.handleCardClick}
           />
