@@ -22,8 +22,8 @@ class App extends Component {
         <Card card="🎩" feedback="visible" onClick={this.handleCardClick}/>
         <Card card="🐶" feedback="hidden" onClick={this.handleCardClick}/>
         <Card card="🐱" feedback="justMatched" onClick={this.handleCardClick}/>
+        {won && <p>GAGNÉ !</p>}
       </div>
-      {won && <p>GAGNÉ !</p>}
     )
   }
 }
