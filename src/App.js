@@ -73,7 +73,7 @@ class App extends Component {
     }
     setTimeout(() => this.setState({ currentPair: [] }), VISUAL_PAUSE_MSECS)
   }
-  
+
   render() {
     const { cards, guesses, matchedCardIndices } = this.state
     const won = matchedCardIndices.length === cards.length
@@ -89,6 +89,7 @@ class App extends Component {
             onClick={this.handleCardClick}
           />
         ))}
+        <HighScoreInput guesses={guesses} />
         {won && <HallOfFame entries={FAKE_HOF} />}
       </div>
     )
