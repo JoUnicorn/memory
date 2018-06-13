@@ -11,7 +11,12 @@ const SIDE = 6
 const SYMBOLS = '😀🎉💖🎩🐶🐱🦄🐬🌍🌛🌞💫🍎🍌🍓🍐🍟🍿'
 
 class App extends Component {
-  cards = this.generateCards()
+  state = {
+    cards: this.generateCards(),
+    currentPair: [],
+    guesses: 0,
+    matchedCardIndices: [],
+  }
 
   generateCards() {
     const result = []
@@ -30,11 +35,12 @@ class App extends Component {
   }
 
   render() {
-    const won = new Date().getSeconds() % 2 === 0
+    const { cards, guesses, matchedCardIndices } = this.state
+    const won = matchedCardIndices.length === cards.length
     return (
       <div className="memory">
-        <GuessCount guesses={0} />
-        {this.cards.map((card, index) => (
+        <GuessCount guesses={guesses} />
+        {cards.map((card, index) => (
           <Card
             card={card}
             feedback="visible"
