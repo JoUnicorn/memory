@@ -17,7 +17,13 @@ class App extends Component {
     cards: this.generateCards(),
     currentPair: [],
     guesses: 0,
+    hallOfFame: null,
     matchedCardIndices: [],
+  }
+
+  // Arrow fx for binding
+  displayHallOfFame = (hallOfFame) => {
+    this.setState({ hallOfFame })
   }
 
   generateCards() {
@@ -76,8 +82,8 @@ class App extends Component {
   }
 
   render() {
-    const { cards, guesses, matchedCardIndices } = this.state
-    const won = matchedCardIndices.length === cards.length
+    const { cards, guesses, hallOfFame, matchedCardIndices } = this.state
+    const won = matchedCardIndices.length === 2
     return (
       <div className="memory">
         <GuessCount guesses={guesses} />
@@ -90,8 +96,14 @@ class App extends Component {
             onClick={this.handleCardClick}
           />
         ))}
-        <HighScoreInput guesses={guesses} />
-        {won && <HallOfFame entries={FAKE_HOF} />}
+        {
+          won &&
+            (hallOfFame ? (
+              <HallOfFame entries={hallOfFame} />
+            ) : (
+              <HighScoreInput guesses={guesses} onStored={this.displayHallOfFame} />
+            ))
+        }
       </div>
     )
   }
