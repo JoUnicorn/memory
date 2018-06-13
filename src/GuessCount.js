@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>ocr-memory/App.js at debut-jsx · deliciousinsights/ocr-memory</title>
+  <title>ocr-memory/GuessCount.js at debut-jsx · deliciousinsights/ocr-memory</title>
     <meta name="description" content="GitHub is where people build software. More than 28 million people use GitHub to discover, fork, and contribute to over 85 million projects.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -37,10 +37,10 @@
     <meta property="og:image" content="https://avatars2.githubusercontent.com/u/9801352?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="deliciousinsights/ocr-memory" /><meta property="og:url" content="https://github.com/deliciousinsights/ocr-memory" /><meta property="og:description" content="ocr-memory - Dépôt de travail pour le cours React d&#39;OpenClassrooms en français" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6Mjg2MDU3MDQzOjkwNzZlNmQyMDk0NjZmNTBjMDBjZWJmOWMwNDA1ZGVmOGM4ZjJiODc3OTkzN2Q4MzNlNTUyOGY4NzRkOWIyODY=--dcfac93321f44d3edeb6d1bef3e2f041b07ddaff">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6Mjg2MDU3MDQzOjQwODU1MjU2NWVkOWE2MThkZDk2NDM5N2JkMTIxMTJhYjI3Y2VlMGNiYmRlMDExMGNmNmFjNWI4NDdlNGFjMTc=--340393f6e31d4b49db956620229ec5c1a388f47a">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="6017:6B21:1914A0:23B649:5B20B71B" data-pjax-transient>
+  <meta name="request-id" content="618F:606F:178258:2169E7:5B20B88F" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
   <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="6017:6B21:1914A0:23B649:5B20B71B" /><meta name="octolytics-dimension-region_edge" content="ap-southeast-1" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="40059001" /><meta name="octolytics-actor-login" content="JoUnicorn" /><meta name="octolytics-actor-hash" content="100432764d7fec550d41a530a2f911e47819b47809189b8f796b985c3aba78a7" />
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="618F:606F:178258:2169E7:5B20B88F" /><meta name="octolytics-dimension-region_edge" content="ap-southeast-1" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="40059001" /><meta name="octolytics-actor-login" content="JoUnicorn" /><meta name="octolytics-actor-hash" content="100432764d7fec550d41a530a2f911e47819b47809189b8f796b985c3aba78a7" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -67,7 +67,7 @@
     <meta name="user-login" content="JoUnicorn">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ZjEyYmI1MmZmMWM0ODQ2ZDdkYjcwMDgyNDkwYTAzMzRhYjljNGJlMDdiNWQxZWMxN2UzOWRlMWFmYTczZTFlMnx7InJlbW90ZV9hZGRyZXNzIjoiMTI1LjI0Ljc4LjIxIiwicmVxdWVzdF9pZCI6IjYwMTc6NkIyMToxOTE0QTA6MjNCNjQ5OjVCMjBCNzFCIiwidGltZXN0YW1wIjoxNTI4ODcwNjkyLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+    <meta name="js-proxy-site-detection-payload" content="ZjVhYzA1MzhmM2Q0NzJmNWRiMDU0NzM5NzhiYTViZmQyZDllN2ZmNjcwZTZiY2QxYjk3NDZkNGNlMDM1MzAzMHx7InJlbW90ZV9hZGRyZXNzIjoiMTI1LjI0Ljc4LjIxIiwicmVxdWVzdF9pZCI6IjYxOEY6NjA2RjoxNzgyNTg6MjE2OUU3OjVCMjBCODhGIiwidGltZXN0YW1wIjoxNTI4ODcxMDYxLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
 
@@ -84,7 +84,7 @@
   <meta name="octolytics-dimension-user_id" content="9801352" /><meta name="octolytics-dimension-user_login" content="deliciousinsights" /><meta name="octolytics-dimension-repository_id" content="113431940" /><meta name="octolytics-dimension-repository_nwo" content="deliciousinsights/ocr-memory" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="113431940" /><meta name="octolytics-dimension-repository_network_root_nwo" content="deliciousinsights/ocr-memory" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/deliciousinsights/ocr-memory/blob/debut-jsx/src/App.js" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/deliciousinsights/ocr-memory/blob/debut-jsx/src/GuessCount.js" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -144,7 +144,7 @@
           aria-label="Search this repository"
           data-unscoped-placeholder="Search or jump to…"
           data-scoped-placeholder="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=MlN/Kt02dlwVaECR79bbDYA0JL8WsmKJmmTPzFJCsyG60zFjA43kdmyYtKeb0/rXHTb3u1eqUkk32h+4kJ9ZQA=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=LCqyW+0VesjP0WfAX3EBblQvfLFoVV4D0jpqSpH9wXykqvwSM67o4rYhk/YrdCC0yS2vtSlNbsN/hLo+UyArHQ=="
           spellcheck="false"
           autocomplete="off"
           autocapitalize="off"
@@ -308,7 +308,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Xz55Ffke7LAJ+8notWhQkcELi1gqRaRjaWPU2itPYuFRrjZbojvHDqQItdOL9BSuHs0rVzDn04J9Bpx21g8Iaw==" />
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7/+iuklVA2RGwacfc4zftur39zKyD9rnwQFIQeDdPJbhb+30EnAo2usy2yRNEJuJNTFXPaitrQbVZADtHZ1WHA==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -320,7 +320,7 @@
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="iOlVZcejDxzVUu4uAjJ1mpE7YHXCnvmhNPh7DxIo4ACGeRornIYkonihkhU8rjGlTv3Aetg8jkAgnTOj72iKig==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="gD/zb3oW/U1egmyf0gjL9BeD+ILggpxtlvwt8zTLaiyOr7whITPW8/NxEKTslI/LyEVYjfog64yCmWVfyYsApg==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -358,7 +358,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Hv3EghTJfMTEWFXsnrNGtmhjepckIATn+GCBtUQLycSH8a4Vif1+dO+SWczrTOmnuzZVFlT2Xm6b5SRyc7WbmQ==" />      <input type="hidden" name="repository_id" id="repository_id" value="113431940" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="nbjge5TarC8+TbI7VnPxF+2nosQdAjWjOKUx51QYzrMEtIrsCe6unxWHvhsjjF4GPvKNRW3UbypbIJQgY6ac7g==" />      <input type="hidden" name="repository_id" id="repository_id" value="113431940" class="form-control" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/deliciousinsights/ocr-memory/subscription"
@@ -438,7 +438,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/deliciousinsights/ocr-memory/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wxHJiGCd+W87oIhgiKAQyFK/WUSOb2Wx/Jh3fqLa0Ss75QvpUZ+5zgTYTHKi5JGDwxo+NqJWZxgnIrv9Ue0gLw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/deliciousinsights/ocr-memory/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DetZVdC8ljIAwWf5peF+OmLpeR6g/eMM98vIrK16qeX1H5s04b7Wkz+5o+uPpf9x80webIzE4aUscQQvXk1Y4Q==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -453,7 +453,7 @@
           8
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/deliciousinsights/ocr-memory/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="H0P/zbFXgYn1Ti8yWGuI3BgtHvY8laLVMm6A7KdDbofNwv+6hi33GFRgi9hz3AfzaCyhLyOjx/26MPmpiGKpcQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/deliciousinsights/ocr-memory/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7n1xqBD2JBt3LDil+ZVY499wZP8m+vVpnJQ7Swf65048/HHfJ4xSitYCnE/SItfMr3HbJjnMkEEUykIOKNsguA==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -472,7 +472,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/deliciousinsights/ocr-memory/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Rruj+QLc71YUQIGGqYpop4uoG7RWShERxJaAU0PGPO7jDCWgOj5h+JUUO7wSApdRvonyErhlU+XiFYbmaE5Etw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/deliciousinsights/ocr-memory/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qVymJZoG4onYq6iYmGyvbeS7bqYNu4YHh4y8FGG3ljgM6yB8ouRsJ1n/EqIj5FCb0ZqHAOOUxPOhD7qhSj/uYQ==" />
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -553,9 +553,9 @@
   <div class="repository-content ">
 
     
-  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/deliciousinsights/ocr-memory/blob/3e669e9da76aae48acf7e04418ed8d7d7fcf8c31/src/App.js">Permalink</a>
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/deliciousinsights/ocr-memory/blob/3e669e9da76aae48acf7e04418ed8d7d7fcf8c31/src/GuessCount.js">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:5bdf09d2d751b403c16657d2cd16301b -->
+  <!-- blob contrib key: blob_contributors:v21:22ba4ae0f9cf4e960a62155d43147800 -->
 
   <div class="file-navigation">
     
@@ -597,7 +597,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/deliciousinsights/ocr-memory/blob/cours/src/App.js"
+               href="/deliciousinsights/ocr-memory/blob/cours/src/GuessCount.js"
                data-name="cours"
                data-skip-pjax="true"
                rel="nofollow">
@@ -607,7 +607,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/deliciousinsights/ocr-memory/blob/master/src/App.js"
+               href="/deliciousinsights/ocr-memory/blob/master/src/GuessCount.js"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -626,7 +626,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/start/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/start/src/GuessCount.js"
               data-name="start"
               data-skip-pjax="true"
               rel="nofollow">
@@ -636,7 +636,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/finish/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/finish/src/GuessCount.js"
               data-name="finish"
               data-skip-pjax="true"
               rel="nofollow">
@@ -646,7 +646,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-this/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-this/src/GuessCount.js"
               data-name="fin-this"
               data-skip-pjax="true"
               rel="nofollow">
@@ -656,7 +656,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-tests-evenements/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-tests-evenements/src/GuessCount.js"
               data-name="fin-tests-evenements"
               data-skip-pjax="true"
               rel="nofollow">
@@ -666,7 +666,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-snapshots/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-snapshots/src/GuessCount.js"
               data-name="fin-snapshots"
               data-skip-pjax="true"
               rel="nofollow">
@@ -676,7 +676,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-setstate/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-setstate/src/GuessCount.js"
               data-name="fin-setstate"
               data-skip-pjax="true"
               rel="nofollow">
@@ -686,7 +686,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-proptypes/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-proptypes/src/GuessCount.js"
               data-name="fin-proptypes"
               data-skip-pjax="true"
               rel="nofollow">
@@ -696,7 +696,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-listes/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-listes/src/GuessCount.js"
               data-name="fin-listes"
               data-skip-pjax="true"
               rel="nofollow">
@@ -706,7 +706,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-jsx/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-jsx/src/GuessCount.js"
               data-name="fin-jsx"
               data-skip-pjax="true"
               rel="nofollow">
@@ -716,7 +716,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-jest/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-jest/src/GuessCount.js"
               data-name="fin-jest"
               data-skip-pjax="true"
               rel="nofollow">
@@ -726,7 +726,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-evenements/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-evenements/src/GuessCount.js"
               data-name="fin-evenements"
               data-skip-pjax="true"
               rel="nofollow">
@@ -736,7 +736,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-etat-local/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-etat-local/src/GuessCount.js"
               data-name="fin-etat-local"
               data-skip-pjax="true"
               rel="nofollow">
@@ -746,7 +746,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-enzyme/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-enzyme/src/GuessCount.js"
               data-name="fin-enzyme"
               data-skip-pjax="true"
               rel="nofollow">
@@ -756,7 +756,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-conditionnel/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-conditionnel/src/GuessCount.js"
               data-name="fin-conditionnel"
               data-skip-pjax="true"
               rel="nofollow">
@@ -766,7 +766,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-champs-controles/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-champs-controles/src/GuessCount.js"
               data-name="fin-champs-controles"
               data-skip-pjax="true"
               rel="nofollow">
@@ -776,7 +776,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/fin-chai/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/fin-chai/src/GuessCount.js"
               data-name="fin-chai"
               data-skip-pjax="true"
               rel="nofollow">
@@ -786,7 +786,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/debut-listes/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/debut-listes/src/GuessCount.js"
               data-name="debut-listes"
               data-skip-pjax="true"
               rel="nofollow">
@@ -796,7 +796,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-              href="/deliciousinsights/ocr-memory/tree/debut-jsx/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/debut-jsx/src/GuessCount.js"
               data-name="debut-jsx"
               data-skip-pjax="true"
               rel="nofollow">
@@ -806,7 +806,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/deliciousinsights/ocr-memory/tree/debut-champs-controles/src/App.js"
+              href="/deliciousinsights/ocr-memory/tree/debut-champs-controles/src/GuessCount.js"
               data-name="debut-champs-controles"
               data-skip-pjax="true"
               rel="nofollow">
@@ -836,44 +836,21 @@
       </clipboard-copy>
     </div>
     <div id="blob-path" class="breadcrumb">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/deliciousinsights/ocr-memory/tree/debut-jsx"><span>ocr-memory</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/deliciousinsights/ocr-memory/tree/debut-jsx/src"><span>src</span></a></span><span class="separator">/</span><strong class="final-path">App.js</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/deliciousinsights/ocr-memory/tree/debut-jsx"><span>ocr-memory</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/deliciousinsights/ocr-memory/tree/debut-jsx/src"><span>src</span></a></span><span class="separator">/</span><strong class="final-path">GuessCount.js</strong>
     </div>
   </div>
 
 
-  
-  <div class="commit-tease">
-      <span class="float-right">
-        <a class="commit-tease-sha" href="/deliciousinsights/ocr-memory/commit/3e669e9da76aae48acf7e04418ed8d7d7fcf8c31" data-pjax>
-          3e669e9
-        </a>
-        <relative-time datetime="2017-12-07T09:51:59Z">Dec 7, 2017</relative-time>
-      </span>
-      <div>
-        <a rel="contributor" data-skip-pjax="true" data-hovercard-user-id="3752" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/tdd"><img class="avatar" src="https://avatars2.githubusercontent.com/u/3752?s=40&amp;v=4" width="20" height="20" alt="@tdd" /></a>
-        <a class="user-mention" rel="contributor" data-hovercard-user-id="3752" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/tdd">tdd</a>
-          <a data-pjax="true" title="Début P2Ch2 - JSX" class="message" href="/deliciousinsights/ocr-memory/commit/3e669e9da76aae48acf7e04418ed8d7d7fcf8c31">Début P2Ch2 - JSX</a>
-      </div>
+  <include-fragment src="/deliciousinsights/ocr-memory/contributors/debut-jsx/src/GuessCount.js" class="commit-tease commit-loader">
+    <div>
+      Fetching contributors&hellip;
+    </div>
 
     <div class="commit-tease-contributors">
-      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
-        <strong>1</strong>
-         contributor
-      </button>
-      
+        <img alt="" class="loader-loading float-left" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+      <span class="loader-error">Cannot retrieve contributors at this time</span>
     </div>
-
-    <div id="blob_contributors_box" style="display:none">
-      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
-      <ul class="facebox-user-list" data-facebox-id="facebox-description">
-          <li class="facebox-user-list-item">
-            <a class="d-inline-block" data-hovercard-user-id="3752" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/tdd"><img src="https://avatars3.githubusercontent.com/u/3752?s=48&amp;v=4" width="24" height="24" alt="@tdd" /></a>
-            <a data-hovercard-user-id="3752" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/tdd">tdd</a>
-          </li>
-      </ul>
-    </div>
-  </div>
-
+</include-fragment>
 
 
   <div class="file">
@@ -881,9 +858,9 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/deliciousinsights/ocr-memory/raw/debut-jsx/src/App.js">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/deliciousinsights/ocr-memory/blame/debut-jsx/src/App.js">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/deliciousinsights/ocr-memory/commits/debut-jsx/src/App.js">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/deliciousinsights/ocr-memory/raw/debut-jsx/src/GuessCount.js">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/deliciousinsights/ocr-memory/blame/debut-jsx/src/GuessCount.js">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/deliciousinsights/ocr-memory/commits/debut-jsx/src/GuessCount.js">History</a>
     </div>
 
         <button class="btn-octicon disabled tooltipped tooltipped-nw"
@@ -904,9 +881,9 @@
   </div>
 
   <div class="file-info">
-      11 lines (8 sloc)
+      8 lines (4 sloc)
       <span class="file-info-divider"></span>
-    168 Bytes
+    134 Bytes
   </div>
 </div>
 
@@ -916,45 +893,34 @@
       <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">React</span>, { <span class="pl-smi">Component</span> } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">&#39;</span>react<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">React</span> <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">&#39;</span>react<span class="pl-pds">&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">&#39;</span>./App.css<span class="pl-pds">&#39;</span></span></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-s"><span class="pl-pds">&#39;</span>./GuessCount.css<span class="pl-pds">&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">class</span> <span class="pl-en">App</span> <span class="pl-k">extends</span> <span class="pl-e">Component</span> {</td>
-      </tr>
-      <tr>
-        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">render</span>() {</td>
-      </tr>
-      <tr>
-        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">return</span> <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>memory<span class="pl-pds">&quot;</span></span> <span class="pl-k">/</span><span class="pl-k">&gt;</span></td>
-      </tr>
-      <tr>
-        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">  }</td>
-      </tr>
-      <tr>
-        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-      <tr>
-        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
-        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-k">export</span> <span class="pl-c1">default</span> <span class="pl-smi">App</span></td>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">const</span> <span class="pl-c1">GuessCount</span> <span class="pl-k">=</span> () <span class="pl-k">=&gt;</span> <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">&quot;</span>guesses<span class="pl-pds">&quot;</span></span> <span class="pl-k">/</span><span class="pl-k">&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">export</span> <span class="pl-c1">default</span> <span class="pl-smi">GuessCount</span></td>
       </tr>
 </table>
 
@@ -966,7 +932,7 @@
       <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
         <li><clipboard-copy class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
         <li><clipboard-copy class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" href="/deliciousinsights/ocr-memory/blame/3e669e9da76aae48acf7e04418ed8d7d7fcf8c31/src/App.js">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" href="/deliciousinsights/ocr-memory/blame/3e669e9da76aae48acf7e04418ed8d7d7fcf8c31/src/GuessCount.js">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" href="/deliciousinsights/ocr-memory/issues/new">Open new issue</a></li>
       </ul>
     </div>
@@ -997,7 +963,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.23844s from unicorn-7ffb8757fb-s8z7k">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.26474s from unicorn-7ffb8757fb-cfjmg">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
